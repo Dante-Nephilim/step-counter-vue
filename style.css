@@ -1,0 +1,21 @@
+.Positive {
+  color: Blue;
+  font-size: 10em;
+  padding: 1em;
+}
+.Negative {
+  color: Red;
+  padding: 1em;
+  padding: 1em;
+  font-size: 10em;
+}
+.Zero {
+  font-size: 10em;
+  color: green;
+  padding: 1em;
+}
+#center {
+  display: grid;
+  place-items: center;
+  padding: 1em;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step-Counter</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div id="app">
+        <p :class=color>{{counter}}</p>
+            <button @click="increment">Increase</button>
+            <button @click="decrement">Decrease</button>
+            <button @click="reset ">Reset</button>
+            <button @click="random ">Random</button>
+            <input type="number" v-model="step" placeholder="how much you want to add ?"/>
+            <input type="time" v-model="message" placeholder="What do you want"/>
+            <p>{{message}}</p>
+            <ul>
+                <li v-for=" i in toDoArray">
+                    {{i}}
+                </li>
+            </ul>
+
+        
+
+
+
+
+    </div>
+
+
+
+
+    
+    <script src="https://unpkg.com/vue@next"></script></body>
+    <script src="script.js"></script>
+
+</body>
+</html>
